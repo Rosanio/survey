@@ -1,0 +1,40 @@
+body {
+  background-color: #004c00;
+  color: white;
+}
+
+p {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+#thanks {
+  display: none;
+}
+
+/* ----- Form ------ */
+form {
+  padding: 25px;
+}
+
+.form-actions {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* ----- Buttons ------ */
+.btn {
+  background-color: transparent;
+  border: solid;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  border: solid;
+}

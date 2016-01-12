@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cool Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="type/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Take our survey, we'd love to know more about you!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="name">What is your name?</label>
+            <input id="person2" class="form-control" type="text">
+          </div>
+
+          <p>What are some of your favorite foods? Check all that apply.</p>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" value="">Pizza
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Brussel Sprouts
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Fish and Chips
+            </label>
+          </div>
+
+          <p>Which type of music is your favorite?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="indie" value="option1" checked>
+              Indie
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="electro" value="option2">
+              Electronic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="rap" value="option3">
+              Rap
+            </label>
+          </div>
+
+          <p>What month were you born in?</p>
+          <select class="form-control">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+          </select>
+
+          <div class="form-group">
+            <label for="movie">What is your favorite movie?</label>
+            <input id="movie" class="form-control" type="text">
+          </div>
+
+          <div class="form-actions">
+          <button type="submit" class="btn btn-lg">Show me the story!</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="thanks">
+        <p>Thank you for taking our survey!</p>
+      </div>
+    </div>
+
+  </body>
+</html>
