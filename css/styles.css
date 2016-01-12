@@ -33,3 +33,12 @@ form {
 .red-background {
   background-color: red;
 }
+
+.white-background {
+  background-color: white;
+}
+
+.black-background {
+  background-color: black;
+  color: white;
+}
