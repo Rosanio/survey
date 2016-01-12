@@ -42,3 +42,9 @@ form {
   background-color: black;
   color: white;
 }
+
+.highlight_text {
+  background-color: #d8d8d8;
+  border: solid;
+  padding: 5px;
+}

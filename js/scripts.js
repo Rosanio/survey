@@ -25,4 +25,8 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("black-background")
   });
+
+  $('#highlite').click(function() {
+    $('#highlite').toggleClass("highlight_text");
+  });
 });
