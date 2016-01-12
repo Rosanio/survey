@@ -1,8 +1,3 @@
-body {
-  background-color: #004c00;
-  color: white;
-}
-
 p {
   font-weight: bold;
 }
@@ -27,14 +22,14 @@ form {
     padding-top: 25px;
 }
 
-/* ----- Buttons ------ */
-.btn {
-  background-color: transparent;
-  border: solid;
+.green-background {
+  background-color: green;
 }
 
-.btn:hover {
-  background-color: black;
-  color: white;
-  border: solid;
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
 }
